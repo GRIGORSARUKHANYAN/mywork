@@ -1,0 +1,26 @@
+<div class="divpage4" >
+    <h2 class="page4title" >Contact Us</h2><br><br><br><br>
+    <input  id="inpname"   type="Name"  placeholder="Name" class="inppage4" /><br><br><br>
+    <input  id="inpemail"  name="email" type="email" placeholder="Email" class="inppage4_1 /"><br><br>
+    <textarea  id="inptext"  name="massage" placeholder="Message" class="inppage4_2"></textarea><br><br>
+    <button  onclick="send()"  type="button"
+     id="btn-send"  class="page4btn" >Send</button>
+    <p class="page4text2" >Integer erat turpis, vestibulum pellentesque aliquam ultricies, finibus nec dui. Donec bibendum enim mi, at tristique leo feugiat at.</p>
+    <p class="page4text2" >Email: info@company.com <br> Tel: 010-020-0340
+      </p>
+    
+      <script>
+        function myMap() {
+          var mapCanvas = document.getElementById("map");
+          var mapOptions = {
+            center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+          };
+          var map = new google.maps.Map(mapCanvas, mapOptions);
+        }
+        </script>
+        
+        <div class="gmap-canvas">
+          <iframe class="mapdiv" id="gmap-canvas"
+              src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      </div>
